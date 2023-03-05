@@ -1,0 +1,493 @@
+body {
+    font-family: Roboto, sans-serif;
+    color: #434455;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    margin-right: 76px;
+    height: 24px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2E2F42;
+}
+
+.logo-split {
+    width: 44px;
+    color: #4D5AE5;
+}
+
+.nav-link a:hover,
+.nav-link a:focus {
+    color: #404BBF;
+}
+
+.nav-link a {
+    color: #2E2F42;
+}
+
+.contacts {
+    display: flex;
+    gap: 40px;
+}
+
+.address {
+    margin-left: auto;
+}
+
+.mail-content {
+    font-weight: 400;
+    font-style: normal;
+    color: #434455;
+}
+
+.phone-content {
+    font-weight: 400;
+    font-style: normal;
+    color: #434455;
+}
+
+.mail-content:hover,
+.mail-content:focus {
+    color: #404BBF;
+}
+
+.phone-content:hover,
+.phone-content:focus {
+    color: #404BBF;
+}
+
+.intro {
+    padding-top: 188px;
+    padding-bottom: 188px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/goit-markup-hw-03/static/images/index_images/people-office.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.intro-title {
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    color: #FFFFFF;
+    width: 500px;
+}
+
+.intro-container {
+    gap: 48px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.intro-btn {
+    font-family: inherit;
+    background: #4D5AE5;
+    border-radius: 4px;
+    line-height: 1.5;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    border: none;
+    width: 169px;
+    height: 56px;
+}
+
+.intro-btn:hover,
+.intro-btn:focus {
+    background-color: #404BBF;
+}
+
+.feature-title {
+    color: #2E2F42;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.feature-content {
+    font-weight: 400;
+}
+
+.feature-list {
+    width: 264px;
+}
+
+.about-title {
+    display: flex;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-transform: capitalize;
+    color: #2E2F42;
+    margin-bottom: 72px;
+    justify-content: center;
+}
+
+.team {
+    padding-top: 120px;
+    background-color: #F4F4FD;
+}
+
+.team-title {
+    display: flex;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-transform: capitalize;
+    color: #2E2F42;
+    justify-content: center;
+    margin-bottom: 72px;
+}
+
+.person {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2E2F42;
+    margin-bottom: 8px;
+}
+
+.person-info {
+    font-weight: 400;
+}
+
+.footer {
+    background: #2E2F42;
+    padding: 100px 0;
+}
+
+.footer-content {
+    width: 264px;
+    font-weight: 400;
+    color: #E7E9FC;
+}
+
+.footer-logo {
+    margin-bottom: 16px;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.1;
+    text-transform: uppercase;
+    color: #F4F4FD;
+}
+
+.footer-logo-split {
+    color: #4D5AE5;
+}
+
+.portfolio {
+    padding-top: 120px;
+}
+
+.portfolio-nav-btn {
+    font-family: inherit;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    background: #F4F4FD;
+    color: #4D5AE5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    padding: 12px 24px;
+}
+
+.portfolio-nav-btn:hover,
+.portfolio-nav-btn:focus {
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-color: #404BBF;
+    background: #404BBF;
+    color: #FFFFFF;
+}
+
+.project-title {
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2E2F42;
+}
+
+.project-info {
+    font-weight: 400;
+    color: #434455;
+}
+
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.header {
+    padding: 24px 0;
+    border-bottom: 1px solid #E7E9FC;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.header-items {
+    display: flex;
+    gap: 40px;
+}
+
+.section {
+    padding-bottom: 120px;
+}
+
+.features {
+    padding-top: 120px;
+}
+
+.feature-item {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    justify-content: center;
+}
+
+.team-item {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    justify-content: center;
+}
+
+.card-content {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    text-align: center;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.btn-nav-list {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    margin-bottom: 72px;
+    justify-content: center;
+    text-align: center;
+}
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 48px 24px;
+    flex-wrap: wrap;
+}
+
+.project-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.project-content:hover {
+    border: 1px solid #F4F4FD;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.project-desc {
+    padding: 32px 16px;
+    border: 1px solid #E7E9FC;
+    border-top: 0;
+}
+
+.svg-icon {
+    margin-left: 100px;
+    margin-bottom: 32px;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    margin-left: 16px;
+}
+
+.social-item {
+    margin-top: 12px;
+    width: 40px;
+    height: 40px;
+}
+
+.social-network-link {
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    fill: #F4F4FD;
+    background-color: #4D5AE5;
+}
+
+.social-network-link:hover,
+.social-network-link:focus {
+    background-color: #404BBF;
+}
+
+.social-icon {
+    width: 16px;
+    height: 16px;
+    margin-top: 12px;
+}
+
+.section-title {
+    display: flex;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-transform: capitalize;
+    color: #2E2F42;
+    margin-bottom: 72px;
+    justify-content: center;
+}
+
+.customers-list {
+    display: flex;
+    gap: 24px;
+    width: 168px;
+    height: 88px;
+}
+
+.customer-logo {
+    display: inline-block;
+    padding: 16px 32px;
+    justify-content: center;
+    width: 104px;
+    height: 56px;
+    fill: #8E8F99;
+}
+
+.customers-item {
+    border: 1px solid #8E8F99;
+    border-radius: 5px;
+}
+
+.customers-item:hover,
+.customers-item:focus {
+    border: 1px solid #404BBF;
+    border-radius: 5px;
+}
+
+.customer-logo:hover,
+.customer-logo:focus {
+    fill: #404BBF;
+}
+
+.footer-container {
+    display: flex;
+    gap: 120px;
+    color: white;
+}
+
+.footer-icon {
+    margin-top: 8px;
+    width: 24px;
+    height: 24px;
+}
+
+.footer-social {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.footer-social-item {
+    margin-top: 16px;
+    width: 40px;
+    height: 40px;
+}
+
+.footer-link {
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    fill: #F4F4FD;
+    background: rgba(255, 255, 255, 0.1)
+}
+
+.footer-link:hover,
+.footer-link:focus {
+    background-color: #31D0AA;
+}
