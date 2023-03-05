@@ -106,7 +106,7 @@ img {
 .intro {
     padding-top: 188px;
     padding-bottom: 188px;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/goit-markup-hw-03/static/images/index_images/people-office.png);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/goit-markup-hw-04/static/images/index_images/people-office.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
