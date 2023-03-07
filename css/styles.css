@@ -283,6 +283,7 @@ img {
 .header {
     padding: 24px 0;
     border-bottom: 1px solid #E7E9FC;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .header-container {
@@ -355,14 +356,13 @@ img {
     gap: 48px 24px;
     flex-wrap: wrap;
 }
+.project-link:hover{
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
 
 .project-content {
     display: flex;
     flex-direction: column;
-}
-
-.project-content:hover {
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .project-desc {
@@ -372,20 +372,20 @@ img {
 }
 
 .svg-icon {
-    width: 264px;
     height: 112px;
     margin-bottom: 8px;
     display: flex;
     background: #F4F4FD;
     border-radius: 4px;
     justify-content: center;
+    align-items: center;
 }
 
 .social-links {
     display: flex;
     flex-direction: row;
     gap: 24px;
-    margin-left: 16px;
+    justify-content: center;
 }
 
 .social-item {
@@ -421,7 +421,7 @@ img {
 }
 
 .customers {
-    padding-top: 120px;
+    padding-top: 130px;
 }
 
 .customers-list {
@@ -430,27 +430,22 @@ img {
 }
 
 .customer-logo {
-    margin-top: 16px;
-    margin-left: 32px;
-    justify-content: center;
-    width: 104px;
-    height: 56px;
     fill: #8E8F99;
 }
 
 .customer-link {
+    display: flex;
     border: 1px solid #8E8F99;
     border-radius: 5px;
     width: 168px;
     height: 88px;
-    display: inline-block;
+    align-items: center;
+    justify-content: center;
 }
 
 .customer-link:hover,
 .customer-link:focus {
-    border: 1px solid #404BBF;
-    border-radius: 5px;
-    fill: #404BBF;
+    border-color: #404BBF;
 }
 
 .customer-link:hover .customer-logo {
@@ -463,16 +458,10 @@ img {
     color: white;
 }
 
-.footer-icon {
-    margin-top: 8px;
-    width: 24px;
-    height: 24px;
-}
-
 .footer-social {
     display: flex;
     flex-direction: row;
-    gap: 24px;
+    gap: 16px;
 }
 
 .footer-social-item {
@@ -487,7 +476,8 @@ img {
     width: 100%;
     height: 100%;
     fill: #F4F4FD;
-    background: rgba(255, 255, 255, 0.1)
+    background: rgba(255, 255, 255, 0.1);
+    align-items: center;
 }
 
 .footer-link:hover,
